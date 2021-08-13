@@ -1,18 +1,10 @@
 package dev.decagon.networkingclass
 
-import android.graphics.BitmapFactory
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
-import com.google.android.material.snackbar.Snackbar
-import java.io.FileNotFoundException
-import java.net.HttpURLConnection
-import java.net.URL
-import java.net.UnknownHostException
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
